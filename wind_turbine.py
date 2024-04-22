@@ -200,7 +200,6 @@ def run(cfg: ModulusConfig) -> None:
         geometry=blades,
         angular_displacement=w,
         axis="y",
-        time_window_net=time_window_net,
         outvar={"u": 0, "v": 0, "w": 0},
         batch_size=cfg.batch_size.initial_condition,
         lambda_weighting={"u": 100, "v": 100, "w": 100},

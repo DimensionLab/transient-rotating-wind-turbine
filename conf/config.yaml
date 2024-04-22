@@ -32,7 +32,7 @@ scheduler:
 training:
   rec_results_freq : 20
   rec_constraint_freq: 1000
-  max_steps : 100
+  max_steps : 2000
 
 batch_size:
   interior: 1024

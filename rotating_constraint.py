@@ -69,7 +69,6 @@ class PointwiseRotatingBoundaryConstraint(PointwiseConstraint):
         geometry: Geometry,
         outvar: Dict[str, Union[int, float, sp.Basic]],
         batch_size: int,
-        time_window_net: Arch,
         angular_displacement: Union[float, sp.Basic] = 0.0,
         axis: str = "z",
         criteria: Union[sp.Basic, Callable, None] = None,
